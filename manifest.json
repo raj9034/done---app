@@ -1,10 +1,16 @@
 {
   "name": "Done. — Task Manager",
   "short_name": "Done.",
-  "description": "A simple, beautiful task manager",
-  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#F5F0E8",
   "theme_color": "#D4622A",
-  "orientation": "portrait"
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
